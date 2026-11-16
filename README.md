@@ -1,7 +1,7 @@
 <h1 align="center">Hadi Azizpour Lindi</h1>
 
 <p align="center">
-  <b>Machine Learning Engineer — interpretable deep learning for signals and time series</b>
+  <b>Machine Learning &amp; AI Engineer — LLM systems, interpretable deep learning, signals and time series</b>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 I build **interpretable deep-learning systems for high-dimensional signal data** — models that are
 accurate *and* can say which physiological features drove the decision.
 
-- 🧠 PhD candidate in Cognitive Science at ICSS, defending **August 2026** — interpretable deep
+- 🧠 PhD candidate in Cognitive Science at ICSS, defense scheduled for **November 2026** — interpretable deep
   learning for early detection of Mild Cognitive Impairment and Alzheimer's disease from EEG.
 - 🔬 5+ years across the full ML lifecycle: data pipelines → feature engineering → architecture →
   training → evaluation → explainability. Transformers, attention, graph neural networks, CNN/LSTM.
@@ -29,8 +29,10 @@ accurate *and* can say which physiological features drove the decision.
 
 | Project | What it does |
 | --- | --- |
-| **[eegkit](https://github.com/HadiAzizpourLindi/eegkit)** | Minimal, non-destructive EEG preprocessing: raw recording → deep-learning-ready `(epochs, channels, samples)` tensor plus a provenance manifest. Montage is never hard-coded, mains frequency is measured rather than assumed, ICA is off by default at every stage. 157 tests, CI green. |
-| **[seiskit](https://github.com/HadiAzizpourLindi/seiskit)** | Exploration seismic processing toolkit — SEG-Y in, migrated section out. |
+| **Metis-Auto** (team project, private) | LLM model router for a production Persian chatbot platform: a fine-tuned classifier predicts topic and difficulty and sends each message to the cheapest model that still answers well. 18% to 44% lower answering-model cost on a replay of real traffic; 87% difficulty accuracy on an unseen month (baseline 75%). FastAPI + Docker. |
+| **[eegkit](https://github.com/HadiAzizpourLindi/eeg-toolkit)** | Minimal, non-destructive EEG preprocessing: raw recording → deep-learning-ready `(epochs, channels, samples)` tensor plus a provenance manifest. Montage is never hard-coded, mains frequency is measured rather than assumed, ICA is off by default at every stage. 157 tests, CI green. |
+| **[seiskit](https://github.com/HadiAzizpourLindi/seiskit)** | Exploration seismic processing toolkit — SEG-Y in, migrated section out. On PyPI: `pip install seiskit`. |
+| **[NeuroBeats](https://neurobeatsclinical.netlify.app/)** | Binaural beat generator that runs in the browser with the Web Audio API. |
 
 ### Research
 
@@ -45,12 +47,14 @@ Hankel/frequency-domain SVD in the F-X domain (Tehran 2012 & 2014, Istanbul 2012
 
 **Learning** — PyTorch · TensorFlow/Keras · scikit-learn · Transformers & attention · GNN/GAT · CNN/BiLSTM · EEGNet · SHAP
 **Signals** — MNE · EEGLAB · SciPy · spectral & F-X domain methods · SVD · connectivity & graph metrics
-**Engineering** — Python · MATLAB · NumPy/Pandas · pytest · GitHub Actions · reproducible pipelines
+**LLM systems** — fine-tuning · model routing · RAG · LLM-as-judge evaluation · agents
+**Engineering** — Python · FastAPI · Docker · MATLAB · NumPy/Pandas · pytest · GitHub Actions · reproducible pipelines
 
 ### Currently
 
-- Finishing the dissertation — defense **August 2026**
+- Finishing the dissertation — defense scheduled for **November 2026**
+- Completed the Rahnema College Machine Learning & AI Engineering Bootcamp (Nov 2026)
 - Building a feature-extraction library on top of `eegkit`: nonlinear dynamics, coherence, graph metrics
-- Open to **senior / lead ML engineering** roles in biomedical AI, healthcare, and industrial analytics
+- Open to **machine learning and AI engineering** roles: LLM systems, signal and time-series analytics, biomedical AI
 
 <p align="center"><sub>hadi.a.lindi@gmail.com · Tehran, Iran</sub></p>
